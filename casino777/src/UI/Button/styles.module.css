@@ -1,0 +1,42 @@
+.success {
+    background-color: green;
+    color: white;
+    padding: 1rem 2rem;
+    outline: none;
+    border: 1px solid #005c00;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+.success:hover {
+    background-color: #bcbcbc;
+    color: #005c00;
+}
+
+.error {
+    background-color: red;
+    color: white;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 1px solid #5c0000;
+    border-radius: 5px;
+}
+
+.error:hover {
+    background-color: #bcbcbc;
+    color: #5c0000;
+}
+
+.warning {
+    background-color: orange;
+    color: white;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 1px solid #5c5c00;
+    border-radius: 5px;
+}
+
+.warning:hover {
+    background-color: #bcbcbc;
+    color: #5c5c00;
+}

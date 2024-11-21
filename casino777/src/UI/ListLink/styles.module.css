@@ -1,0 +1,12 @@
+.balance {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #232e3e;
+    padding: 1rem 2rem;
+    font-size: 1.5em;
+}

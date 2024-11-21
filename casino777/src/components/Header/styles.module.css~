@@ -1,0 +1,85 @@
+.header {
+    display: flex;
+    height: 120px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+    background-color: #161f2c;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.leftSide i {
+    background-color: #232e3e;
+    padding: 1rem;
+    font-size: 1.5em;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 15px;
+    gap: 10px;
+}
+
+.links {
+    display: flex;
+    position: absolute;
+    top: 55px;
+    height: 0;
+    width: 200px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: #20354a;
+    transition: 0.2s ease;
+}
+
+.leftSide .menu:hover .links {
+    height: 200px;
+}
+
+.links a {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.links a:hover {
+    background-color: #465c7c;
+    border-radius: 15px;
+}
+
+.leftSide i:hover {
+    background-color: #465c7c;
+}
+
+
+.logo {
+    width: 250px;
+    height: 100px;
+}

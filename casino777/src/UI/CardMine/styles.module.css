@@ -1,0 +1,34 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 18%;
+    height: 100px;
+    background-color: #232e3e;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2rem;
+    border-radius: 5px;
+    color: white;
+    gap: 10px;
+    transition: transform 1s ease-in-out; /* Анимация вращения */
+    cursor: pointer;
+    background-image: url("/logo.png"); /* Начальная картинка */
+}
+
+.cardActive {
+    transform: rotateY(180deg); /* Вращение на 180 градусов */
+    background-image: url("/mine.png"); /* Замена картинки */
+}
+
+@keyframes animatedCard {
+    0% {
+        background-image: url("/logo.png");
+        transform: rotateY(0);
+    }
+    100% {
+        background-image: url("/mine.png");
+        transform: rotateY(180deg);
+    }
+}
